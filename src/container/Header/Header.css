@@ -1,0 +1,39 @@
+.app__header {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__header-info-wrapper {
+    flex: 1;
+    padding: 0 5rem;
+}
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 117px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.app__header-img-wrapper {
+    flex: 1;
+}
+
+.app__header-img-wrapper img {
+    max-width: 90%;
+}
+
+@media screen and (max-width: 700px) {
+    .app__header-info-wrapper {
+        padding: 0 0;
+    }
+
+    .app__header-h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}

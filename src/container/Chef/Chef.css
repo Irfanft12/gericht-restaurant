@@ -1,0 +1,42 @@
+.app__chef-image {
+    flex: 1;
+    margin-right: 3rem;
+}
+
+.app__chef-image img {
+    max-width: 100%;
+}
+
+.app__chef-content {
+    flex: 1;
+}
+
+.app__chef-content > p {
+    margin: 3rem 0;
+}
+
+.about-chef {
+    margin: 0 0 2rem;
+}
+
+.about-chef h3 {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+
+@media screen and (max-width: 700px) {
+    .app__chef {
+        flex-direction: column;
+    }
+
+    .app__chef-image {
+        flex: 1;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
